@@ -33,3 +33,6 @@ JavaScript often uses callbacks for asynchronous operations, such as making HTTP
 <b>Example</b>
 
 ```setTimeout``` is a function that takes a callback and a delay in milliseconds, and it calls the callback after the specified delay.
+
+
+
