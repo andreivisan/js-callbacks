@@ -137,3 +137,5 @@ A Promise provides then() and catch() methods for handling success and failure.
 6. Reject is being called.
 
 7. The catcher function is being called.
+
+<b>Note</b>: So basically ```then``` and ```catch``` are being called 'asynchronously' while the Promise is waiting for its completeness - meaning until the executor function calls resolve or reject. And then based on that it either executes the handlers or the catchers.
