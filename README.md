@@ -25,3 +25,11 @@ greet("Alice", sayGoodbye);
 <b>Calling a callback</b>
 
 when you pass ```sayGoodbye``` without parentheses, you are passing the function itself as reference. If you add parentheses, it invokes the function immediately and passes the result (which is undefined as we are not returning anything) to ```greet``` function.
+
+## Asynchronous callbacks
+
+JavaScript often uses callbacks for asynchronous operations, such as making HTTP requests, reading files, or setting timers.
+
+<b>Example</b>
+
+```setTimeout``` is a function that takes a callback and a delay in milliseconds, and it calls the callback after the specified delay.
